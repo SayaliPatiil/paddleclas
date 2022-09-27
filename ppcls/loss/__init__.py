@@ -59,6 +59,17 @@ class CombinedLoss(nn.Layer):
             loss_dict.update(loss)
             loss_dict["loss"] = list(loss.values())[0]
         else:
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             for idx, loss_func in enumerate(self.loss_func):
                 loss = loss_func(input, batch)
                 weight = self.loss_weight[idx]
