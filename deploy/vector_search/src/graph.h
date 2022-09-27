@@ -63,7 +63,7 @@ public:
 		}
 	};
 
-	~VisitedList() { delete mass; }
+	//~VisitedList() { delete mass; }
 };
 
 struct GraphMeasures{
