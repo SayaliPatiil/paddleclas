@@ -58,6 +58,29 @@ def build_optimizer(config, epochs, step_each_epoch, model_list=None):
     optim_list = []
     lr_list = []
     """NOTE:
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     Currently only support optim objets below.
     1. single optimizer config.
     2. next level uner Arch, such as Arch.backbone, Arch.neck, Arch.head.
